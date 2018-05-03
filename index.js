@@ -4,8 +4,9 @@ function takeANumber(katzDeliLine, person) {
   return `Welcome, ${person}. You are number ${katzDeliLine.length} in line.`;
 }
 
+var ticketNumber = 0
+
 function takeANumber(katzDeliLine){
-  var ticketNumber = 1 
   katzDeliLine.push(ticketNumber) 
   ticketNumber += 1 
   return `Welcome. You're ticket number ${ticketNumber}` 
