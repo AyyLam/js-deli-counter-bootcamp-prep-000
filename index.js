@@ -17,7 +17,8 @@ function takeANumber(katzDeliLine){
 
 // nowServing(katzDeliLine) => "Currently serving: #1" [2]
 // takeANumber(katzDeliLine) => "Welcome. You're ticket number #3" [2,3]
-[]
+// []
+// [4]
 
 
 function nowServing (katzDeliLine) {
