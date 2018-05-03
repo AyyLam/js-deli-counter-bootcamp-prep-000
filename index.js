@@ -4,6 +4,21 @@ function takeANumber(katzDeliLine, person) {
   return `Welcome, ${person}. You are number ${katzDeliLine.length} in line.`;
 }
 
+function takeANumber(katzDeliLine){
+  var ticketNumber = 1 
+  katzDeliLine.push(ticketNumber) 
+  ticketNumber += 1 
+  return `Welcome. You're ticket number ${ticketNumber}` 
+  
+}
+
+// takeANumber(katzDeliLine) => "Welcome. You're ticket number #1" [1]
+// takeANumber(katzDeliLine) => "Welcome. You're ticket number #2" [1,2]
+
+// nowServing(katzDeliLine) => "Currently serving: #1" [2]
+// takeANumber(katzDeliLine) => "Welcome. You're ticket number #3" [2,3]
+[]
+
 
 function nowServing (katzDeliLine) {
   if (katzDeliLine.length === 0) {
